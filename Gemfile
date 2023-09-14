@@ -2,4 +2,4 @@
 
 source 'https://rubygems.org'
 
-gem 'ddtrace', '~> 1.9.0'
+gem 'ddtrace', '~> 1.14.0'
