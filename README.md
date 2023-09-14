@@ -11,7 +11,7 @@
 * Execute the same command as suggested by renovate: ` bundler lock --minor --strict --update ddtrace`
 * We should see an error due to not being able to update libdatadog.  
 * To update the library, we use the following command: ` bundler lock --minor --conservative --update ddtrace` 
-* git diff Gemfile.lock shows libdatadog and ddtrace updated just fine. 
+* `git diff Gemfile.lock` shows libdatadog and ddtrace updated just fine. 
 
 ## The issue
 
