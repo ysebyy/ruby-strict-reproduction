@@ -8,9 +8,9 @@
 
 * Gemfile currently has ddtrace version  ~> 0.9.0
 * Update Gemfile ddtrace to version ~> 0.14.0 (as it was suggested by Renovate)
-* Execute the same command as suggested by renovate: bundler lock --minor --strict --update ddtrace
+* Execute the same command as suggested by renovate: ` bundler lock --minor --strict --update ddtrace`
 * We should see an error due to not being able to update libdatadog.  
-* To update the library, we use the following command: bundler lock --minor --conservative --update ddtrace
+* To update the library, we use the following command: ` bundler lock --minor --conservative --update ddtrace` 
 * git diff Gemfile.lock shows libdatadog and ddtrace updated just fine. 
 
 ## The issue
